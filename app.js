@@ -14,6 +14,9 @@ app.use(express.json());
 // mount user controller
 app.use('/user', controllers.userController);
 
+// mount log controller
+app.use('/log', controllers.logController);
+
 // test connection to server and define models to database
 dbConnection
   .authenticate()

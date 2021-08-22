@@ -1,4 +1,4 @@
-const UserModel = require('./user');
-const LogModel = require('./log');
-
-module.exports = { UserModel, LogModel };
+module.exports = {
+  UserModel: require('./user'),
+  LogModel: require('./log'),
+};

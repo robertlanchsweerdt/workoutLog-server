@@ -53,12 +53,12 @@ Below are [Postman](https://www.postman.com/) screenshots showing successful HTT
 | **/user/register** | **POST** |
 | ------------------ | -------- |
 
-![img of POST /user/register](./imgs/post-user-login.png)
+![img of POST /user/register](./imgs/post-user-register.png)
 
 | **/user/login** | **POST** |
 | --------------- | -------- |
 
-![img of POST /user/login](./imgs/post-user-register.png)
+![img of POST /user/login](./imgs/post-user-login.png)
 
 | **/log/** | **POST** |
 | --------- | -------- |

@@ -64,11 +64,13 @@ router.get('/', async (req, res) => {
 router.get('/:id', validateSession, async (req, res) => {
   // another method to get params id using destructure --> const { id } = req.params;
 
-  const userId = req.params.id;
+  const logId = req.params.id;
+  const userId = req.user.id;
 
   try {
     const logsById = await LogModel.findAll({
       where: {
+        id: logId,
         owner_id: userId,
       },
     });
